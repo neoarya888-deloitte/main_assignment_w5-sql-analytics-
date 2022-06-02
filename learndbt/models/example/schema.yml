@@ -1,0 +1,105 @@
+
+version: 2
+
+models:
+  # - name: Milestone1
+  #   description: "Milestone1"
+  #   columns:
+  #     - name: id
+  #       description: "The primary key for this table"
+  #       tests:
+  #         - unique
+  #         - not_null
+  #
+  #
+  #
+  # - name: Milestone2
+  #   description: "Milestone2"
+  #   columns:
+  #     - name: BODY
+  #       description: "The primary key for this table"
+  #       tests:
+  #         - unique
+  #         - not_null
+  #
+  #
+  #
+  # - name: Milestone3
+  #   description: "Milestone3"
+  #   columns:
+  #     - name: BODY
+  #       description: "The primary key for this table"
+  #       tests:
+  #         - unique
+  #         - not_null
+  #
+  #
+  #
+  # - name: Milestone4
+  #   description: "Milestone4"
+  #   columns:
+  #     - name: name
+  #       description: "The primary key for this table"
+  #       tests:
+  #         - unique
+  #         - not_null
+
+
+
+  # - name: Milestone5
+  #   description: "Milestone5"
+  #   columns:
+  #     - name: id
+  #       description: "The primary key for this table"
+  #       tests:
+  #         - unique
+  #         - not_null
+
+
+  - name: Milestone1of1_main
+    description: "Milestone1of1"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: Milestone1of2_main
+    description: "Milestone1of2"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: Milestone2of1_ytd_main
+    description: "Milestone1of2"
+    columns:
+      - name: code
+        tests:
+          - not_null
+      - name: ytd
+        tests:
+          - not_null
+
+  - name: Milestone2of1_mtd_main
+    description: "Milestone1of2"
+    columns:
+      - name: code
+        tests:
+          - not_null
+      - name: mtd
+        tests:
+          - not_null
+
+  - name: Milestone2of1_oneyear_main
+    description: "Milestone1of2"
+    columns:
+      - name: code  
+        tests:
+          - not_null
+      - name: oneyear
+        tests:
+          - not_null
